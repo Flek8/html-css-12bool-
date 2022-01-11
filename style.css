@@ -1,0 +1,29 @@
+[class*="col-"] {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    background-color: rgb(44, 44, 248);
+    height: 50px;
+    border: 1px solid white;
+    color: white;
+}
+
+.col-6 [class*="col-"] {
+    background-color: yellowgreen;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid white;
+    color: white;
+}
+
+.col-6 .row {
+    height: 50px;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.container-fluid {
+    margin-bottom: 70px;
+}
